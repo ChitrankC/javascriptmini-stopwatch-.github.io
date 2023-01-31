@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(255, 187, 0);
+}
+p{
+    padding-left: 715px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+}
+h1{
+    padding-left: 650px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+h2{
+    padding-left: 525px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.start{
+    background-color: rgb(255, 187, 0);
+    color: white;
+    border: solid 1px;
+    border-radius: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 527px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+button:hover{
+    transform: scale(1.1);
+    
+}
+button:active{
+    transform: scale(1);
+    background-color:white ;
+    color: rgb(255, 187, 0);
+
+}
+.stop{
+    background-color: rgb(255, 187, 0);
+    color: white;
+    border: solid 1px;
+    border-radius: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.reset{
+    background-color: rgb(255, 187, 0);
+    color: white;
+    border: solid 1px;
+    border-radius: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    transition: background-color 0.2s, transform 0.2s;
+}
